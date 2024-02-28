@@ -1,7 +1,8 @@
 # EE-469
 # Intro
 This code is a simple RISC-V CPU that is capable of running 
-simple Fibonacci code.
+simple Fibonacci code. The following code is created based 
+on the book Computer Organization And Design 5th Edition.
 
 # Tool use
 The format of the code in this file is SystemVerilog, and 
