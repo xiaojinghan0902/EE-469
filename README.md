@@ -38,7 +38,7 @@ if:
      lwra,12(sp)
      addi sp,sp,16
      ret
-``
+```
 ## Contributing
 
 Pull requests are welcome. 
