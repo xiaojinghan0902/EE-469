@@ -40,6 +40,15 @@ if:
      addi sp,sp,16
      ret
 ```
+## Pipeline
+
+The code is designed for an immature 7-stage single-cycle pipeline.
+Based on the design diagram of the seven-stage pipeline, we have 
+designed the IF, ID, DE, EX, ME1, ME2, and WB cycles. The implementation 
+of the WB stages is done through a forward multiplexer. At the same time,
+a hazard unit and a forward unit are used to control and avoid errors 
+caused by data not being updated in time.
+
 ## Contributing
 
 Pull requests are welcome. 
